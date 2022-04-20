@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFG</title>
+</head>
+<body>
+
+    <div class="instrucciones">Ingrese una linea por regla, utilizar ">" para asignacion y "|" para separar los terminos</div>
+    
+    <div class="texto" style="float: left; width: 50vw;">
+        <textarea name="regla" id="reglas" cols="100" rows="30"></textarea>
+    </div>
+
+    <div id="respuesta" style="height: 460px; width: 40vw; border: 1px solid black; float: left;"></div>
+
+    <div>
+        <button class="btn" id="PU">Eliminar producciones unitarias</button>
+        <button class="btn" id="C">Chomsky</button>
+        <button class="btn" id="G">Greibach</button>
+    </div>
+
+    <script src="CFG.js"></script>
+</body>
+</html>
